@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -perm 644 -maxdepth 1 -exec chmod 664{} hello olleh
